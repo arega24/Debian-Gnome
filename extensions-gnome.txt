@@ -1,0 +1,6 @@
+https://extensions.gnome.org/extension/4944/app-icons-taskbar/
+https://extensions.gnome.org/extension/3193/blur-my-shell/
+https://extensions.gnome.org/extension/5547/custom-accent-colors/
+https://extensions.gnome.org/extension/3733/tiling-assistant/
+https://extensions.gnome.org/extension/1460/vitals/
+https://extensions.gnome.org/extension/4812/wallpaper-switcher/

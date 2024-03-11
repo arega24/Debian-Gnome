@@ -1,0 +1,75 @@
+###### INSTALL #####
+https://www.youtube.com/watch?v=Of_Hs6HluSo
+bash: PS1='\u @ \h: \w >> '
+
+###### AFTER INSTALL #####
+add user to /etc/sudoers
+comment cdrom from /etc/apt/sources.list
+
+flatpak 	https://flatpak.org/setup/Debian
+nfs 		https://www.youtube.com/watch?v=zmDIfJtCKCk
+tailscale 	https://tailscale.com/kb/1174/install-debian-bookworm
+
+##### export and load config ######
+dconf dump / > dconf-settings.ini
+dconf load / < dconf-settings.ini
+
+###### REMOVE ######
+
+gnome-terminal
+gnome-calculator
+gnome-weather
+evolution
+libreoffice
+sudo apt remove libreoffice*
+sudo apt remove seahorse*
+sudo apt remove transmission*
+
+sudo apt autoremove
+sudo apt autoclean 
+
+##### INSTALL ######
+
+alacritty
+neovim
+git
+syncthing
+qalculate-gtk
+keepassxc
+sayonara
+lf
+
+nfs-common
+autofs
+
+
+zathura
+
+# flatpak
+flatpak install flathub re.sonny.Tangram
+flatpak install flathub io.gitlab.librewolf-community
+flatpak install flathub com.brave.Browser
+flatpak install flathub com.discordapp.Discord
+flatpak install flathub im.riot.Riot
+flatpak install flathub org.standardnotes.standardnotes
+flatpak install flathub com.logseq.Logseq
+flatpak install flathub org.signal.Signal
+flatpak install flathub dev.deedles.Trayscale
+
+
+## steam
+folow https://wiki.debian.org/Steam
+dont forget to add 32 bit suport 
+
+
+
+
+##### IDEIAS ######
+https://extensions.gnome.org/extension/3733/tiling-assistant/
+browsers -> webapps or browser
+export gnome shortcuts
+
+#### add user to sudo group
+su -
+usermod -aG sudo arega
+

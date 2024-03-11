@@ -1,0 +1,4 @@
+Series -fstype=nfs4,rw 192.168.1.73:/mnt/Secured_Media/Series
+Movies -fstype=nfs4,rw 192.168.1.73:/mnt/Secured_Media/Movies 
+Music -fstype=nfs4,rw 192.168.1.73:/mnt/Secured_Media/Music
+Shared -fstype=nfs4,rw 192.168.1.73:/mnt/Shared_Files/Shared_Files
