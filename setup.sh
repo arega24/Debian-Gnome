@@ -26,6 +26,7 @@ flatpak install flathub org.standardnotes.standardnotes
 flatpak install flathub com.logseq.Logseq
 flatpak install flathub org.signal.Signal
 flatpak install flathub com.vscodium.codium
+flatpak install flathub com.github.tchx84.Flatseal
 # flatpak install flathub dev.deedles.Trayscale
 
 
