@@ -10,6 +10,9 @@ flatpak 	https://flatpak.org/setup/Debian
 nfs 		https://www.youtube.com/watch?v=zmDIfJtCKCk
 tailscale 	https://tailscale.com/kb/1174/install-debian-bookworm
 
+###### Nvidia and Steam ######
+https://www.youtube.com/watch?v=K72XJHurdUY
+
 ##### export and load config ######
 dconf dump / > dconf-settings.ini
 dconf load / < dconf-settings.ini
