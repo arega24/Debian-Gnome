@@ -11,14 +11,13 @@ sudo apt autoclean
 
 ##### INSTALL ######
 
-sudo apt install alacritty neovim git syncthing qalculate-gtk keepassxc sayonara
+sudo apt install alacritty neovim git syncthing qalculate-gtk keepassxc sayonara firefox
 sudo apt install nfs-common autofs
 # https://www.youtube.com/watch?v=zmDIfJtCKCk
 # https://tailscale.com/kb/1174/install-debian-bookworm
 
 # flatpak
 flatpak install flathub re.sonny.Tangram
-flatpak install flathub io.gitlab.librewolf-community
 flatpak install flathub com.brave.Browser
 flatpak install flathub com.discordapp.Discord
 flatpak install flathub im.riot.Riot
