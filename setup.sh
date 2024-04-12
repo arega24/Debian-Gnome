@@ -17,7 +17,7 @@ sudo apt install nfs-common autofs
 # https://tailscale.com/kb/1174/install-debian-bookworm
 
 # flatpak
-flatpak install flathub re.sonny.Tangram
+flatpak install flathub org.ferdium.Ferdium
 flatpak install flathub com.brave.Browser
 flatpak install flathub com.discordapp.Discord
 flatpak install flathub im.riot.Riot
